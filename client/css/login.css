@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+}
+*, body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+body{
+   margin: 0;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color:#212529;
+   text-align: left;
+   background-color: #fff;
+}
+.website-logo{
+    display: inline-block;
+    top: 50px;
+    left: 50px;
+    right: initial;
+    bottom: initial;
+    position: absolute;
+    z-index: 1000;
+}
+.website-logo img{
+    width: 300px;   
+    opacity: 0.5 !important;
+}

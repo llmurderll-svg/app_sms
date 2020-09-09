@@ -1,0 +1,136 @@
+html, body {
+    height: 100%;
+}
+*, body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+body{
+   margin: 0;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color:#000000;
+   text-align: left;
+   background-color: #fff;
+}
+.form-body{
+    height: 100%;
+}
+div{
+    display: block;
+}
+.website-logo{
+    display: inline-block;
+    top: 50px;
+    left: 50px;
+    right: initial;
+    bottom: initial;
+    position: absolute;
+    z-index: 1000;
+}
+.website-logo img{
+    width: 150px;   
+    /*opacity: 0.1 !important;*/
+}
+
+
+/*Background tras del logo*/
+.img-holder{
+    display: inline-block;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 750px;
+    min-height: 700px;
+    height: 100%;
+    overflow: hidden;
+    background-color: #353232;
+    padding: 60px;
+    text-align: center;
+    z-index: 999;
+}
+.img-holder .bg{
+    /*opacity: 0.13;*/
+    background-image: url(../img/fondo.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Form */
+.form-holder{
+    margin-left: 420px;
+    width: 100%;
+}
+.form-holder{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.form-holder .form-content {
+    position: relative;
+    text-align: center;
+    display: flex;
+    background-color:#70944e;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    min-height: 100%;
+}
+.form-content h3 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: black;    
+}
+
+/*login panel*/
+.form-content .page-links a{
+    color: #006696;
+    font-size: 20px;
+    font-weight: 700;
+    margin:0;
+}
+
+/*Elementos*/
+.form-content .form-items {
+    max-width: 340px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    transition: all 0.4s ease;
+    
+}
+.form-content input, .form-content .dropdown-toggle.btn-default{
+    border:0;
+    background-color: #fff;
+    color: #8D8D8D;
+    width: 100%;
+    padding: 9px 20px;
+    text-align: left;
+    outline: 0;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 0.3s ease;
+    margin-bottom: 14px;
+}
+
+.form-control{
+    display: block;
+}
+
+.form-content .form-button{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.activo{
+    text-decoration-line: line-through;
+}
